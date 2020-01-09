@@ -8,6 +8,13 @@ def pretty_print_nds(nds)
   return pp(nds)
 end
 
+# def print_first_directors_movie_titles
+# #  pp directors_database
+#   array = directors_database[0][:movies]
+#   array.length.times do |hash|
+#     puts array[hash][:title]
+#   end
+# end
 def print_first_directors_movie_titles
 #  pp directors_database
   array = directors_database[0][:movies]
