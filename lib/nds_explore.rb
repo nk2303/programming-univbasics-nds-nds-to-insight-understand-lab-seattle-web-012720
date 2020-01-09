@@ -15,10 +15,9 @@ end
 #     puts array[hash][:title]
 #   end
 # end
+
 def print_first_directors_movie_titles
-#  pp directors_database
-  array = directors_database[0][:movies]
-  array.length.times do |hash|
-    puts array[hash][:title]
+  array = directors_database.first[:movies]
+    puts array.first[:title]
   end
 end
