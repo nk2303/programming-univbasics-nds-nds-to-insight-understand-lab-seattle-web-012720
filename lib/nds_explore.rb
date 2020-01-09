@@ -15,9 +15,3 @@ def print_first_directors_movie_titles
     puts array[hash][:title]
   end
 end
-
-def print_first_directors_movie_titles
-  array = directors_database.first[:movies]
-    puts array.first[:title]
-  end
-end
